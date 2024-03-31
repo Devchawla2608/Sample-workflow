@@ -4,11 +4,11 @@ on: [push]
 
 jobs:
   run-shell-commands:
-  runs-on: ubuntu-latest
-  steps:
-    - name: string
-      run: echo "Welcome"
-    -name: multipline script
-      run: |
-        node -v
-        npm -v
+    runs-on: ubuntu-latest
+    steps:
+      - name: string
+        run: echo "Welcome"
+      -name: multipline script
+        run: |
+          node -v
+          npm -v
