@@ -2,13 +2,13 @@ name: shell commands
 
 on: [push]
 
-jobs:
+jobs: 
   run-shell-commands:
     runs-on: ubuntu-latest
-    steps:
+    steps: 
       - name: string
-        run: echo "Welcome"
-      -name: multipline script
+        run: echo "Welcome to Devopshint!!"
+      - name: multiline script
         run: |
           node -v
           npm -v
