@@ -1,0 +1,15 @@
+name: shell commands
+
+on: [push]
+
+jobs:
+  run-shell-commands:
+  runs-on: ubuntu-latest
+  steps:s
+    - name: string
+      run: echo "Welcome"
+    -name: multipline script
+      run: |
+        node -v
+        npm -v
+s
