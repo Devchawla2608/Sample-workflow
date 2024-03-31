@@ -5,7 +5,7 @@ on: [push]
 jobs:
   run-shell-commands:
   runs-on: ubuntu-latest
-  steps:s
+  steps:
     - name: string
       run: echo "Welcome"
     -name: multipline script
