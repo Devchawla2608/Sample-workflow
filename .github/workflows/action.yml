@@ -5,12 +5,12 @@ on: [push]
 jobs:
   run-github-actions:
     runs-on: ubuntu-latest
-      steps:
-        - name: Simple Javascript Actions
-          id: hello
-          uses: actions/hello-world-javascript-action@v1
-          with: 
-            who-to-greet: devopshint
+    steps:
+      - name: Simple Javascript Actions
+        id: hello
+        uses: actions/hello-world-javascript-action@v1
+        with: 
+          who-to-greet: devopshint
 
-        - name: Get the output time
-          run: echo "${{steps.hello.outputs.time}}"
+      - name: Get the output time
+        run: echo "${{steps.hello.outputs.time}}"
